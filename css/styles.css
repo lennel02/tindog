@@ -12,6 +12,15 @@ h1 {
   color: #ffff;
 }
 
+h2 {
+  font-family: 'Montserrat';
+  font-size: 3.0rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+
+}
+
 h3 {
   font-family: 'Montserrat';
   font-size: 1.5rem;
@@ -29,7 +38,15 @@ h3 {
 
   background-color: #ffff;
   text-align: center;
-  padding: 8% 15%;
+  padding: 7% 15%;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
+
 }
 
 
@@ -80,7 +97,28 @@ h3 {
 }
 .feature-caption{
   font-family: 'Montserrat';
-  color: #bfbfbf;
+  color: #8f8f8f;
   line-height: 1.5;
   margin: auto 20px;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin:  20px;
+}
+
+.testimonial-text {
+  margin: 50px 50px 50px;
+
+}
+
+#press{
+
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
