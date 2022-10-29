@@ -1,8 +1,6 @@
-body{
-font-family: 'Montserrat';
-
+body {
+  font-family: 'Montserrat';
 }
-
 
 h1 {
   font-family: 'Montserrat';
@@ -17,8 +15,6 @@ h2 {
   font-size: 3.0rem;
   line-height: 1.5;
   font-weight: bold;
-
-
 }
 
 h3 {
@@ -28,62 +24,46 @@ h3 {
   color: black;
 }
 
-
-#title{
+#title {
   background-color: #ff4c68;
-
 }
 
-#features{
-
-  background-color: #ffff;
-  text-align: center;
-  padding: 7% 15%;
-}
-
-#testimonials {
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ef8172;
-  color: #ffff;
-
-}
-
-
-
-.container-fluid{
+.container-fluid {
   padding: 3% 15%;
 }
 
-.navbar{
+.navbar {
   padding-bottom: 4.5rem;
 }
-
 
 .navbar-brand {
   font-family: 'Ubuntu';
   font-size: 2.5rem;
   font-weight: bold;
-
 }
 
-.nav-item{
+.nav-item {
   margin: auto 18px;
 }
 
 .nav-link {
-    font-family: 'Montserrat';
-    font-weight: 100;
+  font-family: 'Montserrat';
+  font-weight: 100;
 }
 
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
-
 }
 
 .title-image {
   width: 60%;
-  transform:  rotate(25deg);
+  transform: rotate(25deg);
+}
+
+#features {
+  background-color: #ffff;
+  text-align: center;
+  padding: 7% 15%;
 }
 
 .feature-item {
@@ -92,33 +72,53 @@ h3 {
   color: #ef8172;
 }
 
-.feature-item:hover{
-    color: #ff4c68;
+.feature-item:hover {
+  color: #ff4c68;
 }
-.feature-caption{
+
+.feature-caption {
   font-family: 'Montserrat';
   color: #8f8f8f;
   line-height: 1.5;
   margin: auto 20px;
 }
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
+}
+
 .testimonial-image {
   width: 10%;
   border-radius: 100%;
-  margin:  20px;
+  margin: 20px;
 }
 
-.testimonial-text {
-  margin: 50px 50px 50px;
-
+.carousel-item {
+  padding: 7% 15%;
 }
 
-#press{
-
+#press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
+
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #ffff;
+}
+.card{
+  height: 25rem;
+}
+.card-column {
+  padding: 4% 3%;
 }
